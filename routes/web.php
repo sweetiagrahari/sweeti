@@ -22,5 +22,8 @@ Route::get('/master',function(){
 Route::get('/home',function(){
     return view('layout.home');
 });
+Route::get('/ogdemo',function(){
+    return view('Og tags');
+});
 
 

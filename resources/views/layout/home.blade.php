@@ -1,4 +1,4 @@
-@extends('ogtag')
+@extends('layout.master')
 
 @section('ogTitle', 'Custom Page Title')
 @section('ogDescription', 'Custom Page Description')
